@@ -1,0 +1,17 @@
+USAGE INSTRUCTIONS:
+
+First you need to install python - I used 3.11.0 to program this, so if you wanna be safe install python version 3.11.0, but I'm pretty sure
+future versions will work.
+
+While installing python make sure you add python to path, because this will allow the .bat file to run without needing to specify
+any directories.
+
+Once python is installed, run the .bat file in the same directory as this file.
+
+Finally, run index.py and read those instructions on how to use the program
+
+
+ALSO-----
+The delete file deletes all of the screenshots in the Screenshot folder in this directory
+Thanks for using :)
+-Johan
