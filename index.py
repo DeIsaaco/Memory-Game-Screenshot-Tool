@@ -37,6 +37,7 @@ os.system(cmd)
 
 # INSTRUCTIONS
 print('WELCOME TO MY MEMORY GAME CHEATING PROGRAM\n\n\nThis program works based on clicks, so if you click on one memory card, and then a second memory card,\nit will take a screenshot.\n\nPress CTRL to exit\n\nPress LSHIFT to fix the order, so if you accidentally click too fast and you only get one card in your screenshot\nthen you can just press LSHIFT to delete the most recent screenshot and reset your invisible clicks counter to 0\n\nPress RSHIFT to signify that you''ve moved on to the next level, resetting all variables.\n\nPress RCTRL to stop being able to take screenshots with your mouse clicks.')
+print('')
 
 # INPUT FUNCTIONS
 while running:
@@ -106,3 +107,4 @@ while running:
                 canClick = False
             else:
                 canClick = True
+    print('\rCan you take a screenshot with your clicks?',canClick, end=" ")
