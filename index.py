@@ -96,6 +96,7 @@ while running:
             pass
         else:
             running = False
+            subprocess.call("TASKKILL /F /IM microsoft.photos.exe", shell=True)
             pass
     
     # SCREENSHOT ABILITY CONTROL
