@@ -10,6 +10,7 @@ import os
 import win32api
 import time
 import win32con
+import subprocess
 
 #CREATES SCREENSHOTS FOLDER IF IT DOESN'T EXIST ALREADY
 if os.path.exists(os.getcwd() + '\\Screenshots\\') == False:
@@ -73,6 +74,7 @@ while running:
             clickTimes = 0
             canClick = True
             screenshotNumber = 1
+            subprocess.call("TASKKILL /F /IM microsoft.photos.exe", shell=True)
     
     # FIXING ORDER
     currentLSHIFTState = win32api.GetKeyState(win32con.VK_LSHIFT)
