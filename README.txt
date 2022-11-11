@@ -11,6 +11,8 @@ Once python is installed, run the .bat file in the same directory as this file.
 
 Finally, run index.py and read those instructions on how to use the program
 
+Youtube Video Instructions:
+https://youtu.be/ltuUITVUKG8
 
 ALSO-----
 The delete file deletes all of the screenshots in the Screenshot folder in this directory
