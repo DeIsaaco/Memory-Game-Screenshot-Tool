@@ -2,6 +2,7 @@ USAGE INSTRUCTIONS:
 
 First you need to install python - I used 3.11.0 to program this, so if you wanna be safe install python version 3.11.0, but I'm pretty sure
 future versions will work.
+ --LINK: https://www.python.org/ftp/python/3.11.0/python-3.11.0-amd64.exe
 
 While installing python make sure you add python to path, because this will allow the .bat file to run without needing to specify
 any directories.
